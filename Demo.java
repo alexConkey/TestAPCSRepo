@@ -59,10 +59,4 @@ public class Demo {
       }
       return arr;
     }
-
-    public static void main(String[] args) {
-      int[][] myNum = {{10, 20, 30, 40}, {1}};
-      System.out.println(arrayDeepToString(myNum));
-      System.out.println(arrayDeepToString(create2DArrayRandomized(4, 7, 5)));
-    }
 }
